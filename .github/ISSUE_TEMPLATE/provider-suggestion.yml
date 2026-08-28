@@ -1,0 +1,40 @@
+name: Provider suggestion
+description: Suggest an official free-access LLM API source for review
+title: "[Provider suggestion] "
+labels:
+  - provider-suggestion
+body:
+  - type: input
+    id: provider
+    attributes:
+      label: Provider name
+    validations:
+      required: true
+  - type: input
+    id: docs
+    attributes:
+      label: Official API documentation or model catalog
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: pricing
+    attributes:
+      label: Official pricing or free-tier source
+      placeholder: https://...
+    validations:
+      required: true
+  - type: textarea
+    id: conditions
+    attributes:
+      label: Known access conditions
+      description: Note card, phone, region, quota, credit expiry, or account restrictions. Mark unknowns as unknown.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I did not include credentials, referral links, or personal data.
+          required: true

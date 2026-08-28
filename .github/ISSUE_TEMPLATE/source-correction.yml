@@ -1,0 +1,46 @@
+name: Source correction
+description: Report an outdated model, quota, official link, or access condition
+title: "[Source correction] "
+labels:
+  - source-correction
+body:
+  - type: input
+    id: provider
+    attributes:
+      label: Provider
+      placeholder: Groq, Gemini, OpenRouter, NVIDIA, Cerebras, SiliconFlow, or another provider
+    validations:
+      required: true
+  - type: input
+    id: model
+    attributes:
+      label: Model or API model ID
+      description: Leave blank if this affects the whole provider.
+  - type: input
+    id: source
+    attributes:
+      label: Provider-owned source URL
+      placeholder: https://...
+    validations:
+      required: true
+  - type: input
+    id: checked
+    attributes:
+      label: Date checked
+      placeholder: YYYY-MM-DD and timezone
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What changed or appears incorrect?
+      description: Do not include API keys, tokens, personal data, or private account responses.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety check
+      options:
+        - label: I removed credentials and personal information.
+          required: true

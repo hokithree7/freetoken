@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Live product status
+    url: https://freetoken.link/status
+    about: Check current public operational evidence before reporting a route change.
+  - name: Verification method
+    url: https://freetoken.link/about-verification
+    about: Understand what each evidence and Canary label means.
