@@ -4,7 +4,7 @@ Complete these settings before announcing the repository.
 
 ## Required
 
-- Create the repository as **public** under `hokithree7/freetoken-link`.
+- Create the repository as **public** under `hokithree7/freetoken`.
 - Keep `https://freetoken.link/` as the website and product canonical.
 - Keep GitHub Pages disabled; this repository is documentation, not a duplicate website.
 - Enable GitHub **Private vulnerability reporting** and test that the private report link in `SECURITY.md` opens.
