@@ -6,7 +6,7 @@ Use the canonical URL `https://freetoken.link/` unless a platform requires a mor
 
 **Description**
 
-Find and verify free-access LLM API routes: dated official conditions, supported browser-direct checks, key-free configuration templates, and a change-focused Watchlist.
+Find and verify free-access LLM API routes: dated evidence, browser-direct checks, keyless configs, change alerts, and a read-only MCP server.
 
 **Website**
 
@@ -14,7 +14,20 @@ https://freetoken.link/
 
 **Suggested topics**
 
-`llm` `free-api` `developer-tools` `api-keys` `openai-compatible` `gemini` `groq` `openrouter` `ai-tools` `model-monitoring`
+`llm` `free-api` `developer-tools` `api-keys` `openai-compatible` `gemini` `groq` `openrouter` `ai-tools` `model-monitoring` `mcp` `mcp-server` `model-context-protocol`
+
+## MCP directory facts — verified 2026-10-19
+
+- Registry name/version: `link.freetoken/catalog` `1.0.0`.
+- [Official record](https://registry.modelcontextprotocol.io/v0.1/servers/link.freetoken%2Fcatalog/versions/1.0.0).
+- Remote endpoint: `https://freetoken.link/mcp`, Streamable HTTP, no FreeToken account or API key required.
+- Six read-only tools: public model search, official key guides, dated price references, token-cost estimates, existing sampled checks and keyless config export.
+- No inference, credential testing, real-time probes or private Vault access.
+- Human guides: EN/ZH/JA/ES/KO. Tool explanatory prose: English v1; locale selects site links only.
+- [Connection and limitations](MCP.md).
+
+Do not describe Registry listing as official endorsement, guaranteed backlinks,
+automatic third-party directory inclusion, or automatic installation in AI clients.
 
 ## Product Hunt draft
 

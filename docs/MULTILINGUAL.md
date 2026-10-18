@@ -1,32 +1,41 @@
-# Multilingual rollout policy
+# Multilingual coverage and maintenance
 
-## Current decision
+Updated 2026-10-19. This supersedes the earlier English/Chinese-only launch plan.
 
-- Prioritize first-class English and Simplified Chinese coverage, with full parity as a measured product goal.
-- Publish concise repository introductions in Japanese and Spanish so developers can understand the product and reach the canonical English experience.
-- Do not mass-translate every model, provider, or long-tail SEO page before there is search or usage evidence.
+## Current public entry points
 
-## Why
+| Language | Site | Repository introduction | MCP guide |
+| --- | --- | --- | --- |
+| English | https://freetoken.link/ | [README.md](../README.md) | https://freetoken.link/mcp-guide |
+| 简体中文 | https://freetoken.link/zh | [README.zh-CN.md](../README.zh-CN.md) | https://freetoken.link/zh/mcp-guide |
+| 日本語 | https://freetoken.link/ja | [README.ja.md](../README.ja.md) | https://freetoken.link/ja/mcp-guide |
+| Español | https://freetoken.link/es | [README.es.md](../README.es.md) | https://freetoken.link/es/mcp-guide |
+| 한국어 | https://freetoken.link/ko | [README.ko.md](../README.ko.md) | https://freetoken.link/ko/mcp-guide |
 
-Availability and free-access claims change. Every additional language multiplies the work needed to keep conditions, evidence dates, warnings, structured data, internal links, and Watchlist copy consistent.
+Localized public discovery and tool routes exist, including models, key guides,
+Config, Doctor, Playground, Watchlist, pricing and status. This is not a claim
+that every article, provider response, email or private workflow is translated.
+The English Find-by-requirement route is labeled as English in introductions
+where no equivalent localized route is linked.
 
-A stale translation is worse than a clear English route with current evidence.
+## MCP language boundary
 
-## Promotion criteria for a full locale
+The six MCP tools currently return English explanatory prose. The `locale`
+argument selects corresponding site links; it does not translate the tool
+payload. All five human connection guides explain this limitation. See
+[MCP.md](MCP.md).
 
-Add a full site locale only when at least one durable signal exists:
+## Maintenance rules
 
-- Search Console shows repeated queries or impressions in that language.
-- Analytics shows meaningful repeat usage from that language or market.
-- Community feedback identifies a concrete workflow that the current languages do not serve.
-- The team can maintain evidence-sensitive copy, navigation, metadata, structured data, and email flows in that locale.
+- Preserve brands, model IDs, protocols and technical identifiers.
+- Keep free tiers, free credits and trials distinct. Preserve payment, account,
+  region and quota conditions rather than simplifying them during translation.
+- Match evidence dates to the source; a translation update does not verify a fact.
+- Link to an existing same-language route where available. Otherwise label the
+  fallback language explicitly instead of pretending a translation exists.
+- Validate changed links and maintain README language-switch links together.
+- Do not claim full locale parity, universal availability or automatic indexing.
 
-## Likely order
-
-1. English — canonical global product and developer documentation.
-2. Simplified Chinese — expand measured coverage toward parity.
-3. The next locale — focused discovery and setup pages only after 4–8 weeks of durable search, repeat-usage, and conversion evidence.
-
-Japanese and Spanish repository summaries are available now, but their order for full product localization is not fixed in advance.
-
-The repository translations are discovery aids. They do not create duplicate GitHub Pages sites, language subdomains, or unsupported hreflang declarations.
+The canonical product remains on `https://freetoken.link/`. Repository
+translations do not create duplicate GitHub Pages sites, language subdomains,
+or independent hreflang declarations.

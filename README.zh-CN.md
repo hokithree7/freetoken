@@ -1,6 +1,6 @@
 # FreeToken.link — 查找并验证免费大模型 API 路线
 
-[English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md)
+[English](README.md) · [简体中文](README.zh-CN.md) · [日本語](README.ja.md) · [Español](README.es.md) · [한국어](README.ko.md)
 
 [![FreeToken.link 产品概览](assets/freetoken-overview.png)](https://freetoken.link/zh)
 
@@ -9,6 +9,16 @@
 访问中文站：**[freetoken.link/zh](https://freetoken.link/zh)**
 
 > 这是公开的产品说明、发布资料和反馈仓库。这里不公开生产应用源码、供应商凭证、共享 Key、用户 Vault 数据或运营密钥。
+
+## 在 AI 助手中使用 FreeToken
+
+只读 **FreeToken MCP Server** 已上线，已收录于官方 MCP Registry：[`link.freetoken/catalog`](https://registry.modelcontextprotocol.io/v0.1/servers/link.freetoken%2Fcatalog/versions/1.0.0)，版本 **1.0.0**。
+
+- 在支持 Streamable HTTP 的客户端中添加远程地址 **`https://freetoken.link/mcp`**。无需 FreeToken 账号或 API Key，具体配置取决于客户端。
+- 支持搜索已发布模型、查询官方申请指南和带日期的价格参考、估算 Token 成本、读取已有抽样检查，以及导出不含真实密钥的配置。
+- 不调用模型、不测试用户 Key、不创建账号、不执行实时可用性探测，也不读取私人 Vault。工具结果说明目前为英文，locale 参数只控制站内链接语言。
+
+[中文连接指南](https://freetoken.link/zh/mcp-guide) · [工具与限制（英文）](docs/MCP.md) · [官方 Registry 搜索](https://registry.modelcontextprotocol.io/)
 
 ## 为什么需要 FreeToken
 
@@ -30,11 +40,13 @@ FreeToken 明确区分：
 | 用自然语言描述需要的 API | [按需求查找](https://freetoken.link/find) |
 | 筛选已审查的模型和供应商 | [中文模型目录](https://freetoken.link/zh/models) |
 | 查看官方 Key 申请步骤 | [申请 API Key](https://freetoken.link/zh/get-key) |
-| 安全诊断已有 Key | [连接诊断](https://freetoken.link/doctor) |
+| 安全诊断已有 Key | [连接诊断](https://freetoken.link/zh/doctor) |
 | 从浏览器直接测试提示词 | [中文 Playground](https://freetoken.link/zh/playground) |
+| 生成不含真实密钥的配置 | [配置生成器](https://freetoken.link/zh/playground#tool-config) |
+| 比较带核查日期的价格参考 | [价格页](https://freetoken.link/zh/pricing) |
 | 建立重要变化 Watchlist | [中文 Watchlist](https://freetoken.link/zh/watchlist) |
-| 查看证据采集方式 | [来源覆盖](https://freetoken.link/sources) |
-| 查看当前运行证据 | [状态页](https://freetoken.link/status) |
+| 查看证据采集方式 | [来源覆盖](https://freetoken.link/zh/sources) |
+| 查看当前运行证据 | [状态页](https://freetoken.link/zh/status) |
 
 ## 隐私和可信边界
 
